@@ -22,6 +22,8 @@ img = cv2.imread("From S11 towards S12.mp4_vframe_2787.948811.png", 0)
 img = cv2.imread("From S11 towards S12.mp4_vframe_2677.639854.png", 0)
 img = cv2.imread("From S11 towards S12.mp4_vframe_814.531266.png", 0)
 img = cv2.imread("violet light on camera.png", 0)
+img = cv2.imread("From S11 towards S12.mp4_vframe_2615.087613.png",0)
+
 equ = cv2.equalizeHist(img)
 
 cv2.imshow("Original Image", img)
@@ -88,6 +90,7 @@ image = cv2.imread("From S11 towards S12.mp4_vframe_2787.948811.png", 0)
 image = cv2.imread("From S11 towards S12.mp4_vframe_2677.639854.png", 0)
 image = cv2.imread("From S11 towards S12.mp4_vframe_814.531266.png", 0)
 image = cv2.imread("violet light on camera.png", 0)
+image = cv2.imread("From S11 towards S12.mp4_vframe_2615.087613.png",0)
 # Resizing the image for compatibility
 image = cv2.resize(image, (500, 600))
 
